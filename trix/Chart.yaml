@@ -4,9 +4,9 @@ description: Kubernetes Security Scanner with AI-Powered Triage and Continuous M
 type: application
 version: 0.2.0
 appVersion: "0.2.0"
-home: https://github.com/trixsec-dev/helmcharts
+home: https://github.com/trixsec-dev/charts
 sources:
-  - https://github.com/trixsec-dev/helmcharts
+  - https://github.com/trixsec-dev/charts
 maintainers:
   - name: Dave Altena
     url: https://github.com/davealtena

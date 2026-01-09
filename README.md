@@ -3,8 +3,8 @@
   <p><strong>Helm charts for deploying Trix to Kubernetes</strong></p>
 
   <p>
-    <a href="https://github.com/trixsec-dev/helmcharts/releases"><img src="https://img.shields.io/github/v/release/trixsec-dev/helmcharts?include_prereleases" alt="Release"></a>
-    <a href="LICENSE"><img src="https://img.shields.io/github/license/trixsec-dev/helmcharts" alt="License"></a>
+    <a href="https://github.com/trixsec-dev/charts/releases"><img src="https://img.shields.io/github/v/release/trixsec-dev/charts?include_prereleases" alt="Release"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/trixsec-dev/charts" alt="License"></a>
   </p>
 </div>
 
@@ -19,7 +19,7 @@
 ## Usage
 
 ```bash
-helm repo add trix https://trixsec-dev.github.io/helmcharts
+helm repo add trix https://trixsec-dev.github.io/charts
 helm repo update
 helm install trix trix/trix -n trix-system --create-namespace
 ```
