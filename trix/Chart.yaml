@@ -8,8 +8,8 @@ home: https://github.com/trixsec-dev/charts
 sources:
   - https://github.com/trixsec-dev/charts
 maintainers:
-  - name: davealtena
-    url: https://github.com/davealtena
+  - name: trixsec-dev
+    url: https://github.com/trixsec-dev
 keywords:
   - security
   - kubernetes

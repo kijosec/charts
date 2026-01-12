@@ -10,7 +10,7 @@ Kubernetes Security Scanner with AI-Powered Triage and Continuous Monitoring
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| Dave Altena |  | <https://github.com/davealtena> |
+| Dave Altena |  | <https://github.com/trixsec-dev> |
 
 ## Source Code
 
