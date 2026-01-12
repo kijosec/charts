@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  trix:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-01-12T15:59:42.024521+01:00"
+    description: Kubernetes Security Scanner with AI-Powered Triage and Continuous
+      Monitoring
+    digest: 3befb0cf069e2dda45108bfc17cb2327918391c078d2d055177bde66ebd2f5ce
+    home: https://github.com/trixsec-dev/charts
+    keywords:
+    - security
+    - kubernetes
+    - trivy
+    - vulnerability
+    - scanner
+    - monitoring
+    - slack
+    maintainers:
+    - name: trixsec-dev
+      url: https://github.com/trixsec-dev
+    name: trix
+    sources:
+    - https://github.com/trixsec-dev/charts
+    type: application
+    urls:
+    - https://trixsec-dev.github.io/charts/trix-0.0.1.tgz
+    version: 0.0.1
+generated: "2026-01-12T15:59:42.022682+01:00"
