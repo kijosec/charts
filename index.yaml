@@ -2,6 +2,36 @@ apiVersion: v1
 entries:
   trix:
   - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2026-01-16T19:26:40.521267591Z"
+    dependencies:
+    - condition: trivy-operator.enabled
+      name: trivy-operator
+      repository: https://aquasecurity.github.io/helm-charts/
+      version: 0.31.x
+    description: Kubernetes Security Scanner with AI-Powered Triage and Continuous
+      Monitoring
+    digest: 30e80bc1c553534a09c937f5bb849ae9f24fa39192d8374943cb74edc79ce7c5
+    home: https://github.com/trixsec-dev/charts
+    keywords:
+    - security
+    - kubernetes
+    - trivy
+    - vulnerability
+    - scanner
+    - monitoring
+    - slack
+    maintainers:
+    - name: trixsec-dev
+      url: https://github.com/trixsec-dev
+    name: trix
+    sources:
+    - https://github.com/trixsec-dev/charts
+    type: application
+    urls:
+    - https://github.com/trixsec-dev/charts/releases/download/trix-0.0.2/trix-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
     appVersion: 0.0.1
     created: "2026-01-12T16:01:40.455588+01:00"
     description: Kubernetes Security Scanner with AI-Powered Triage and Continuous
@@ -26,4 +56,4 @@ entries:
     urls:
     - https://trixsec-dev.github.io/charts/trix-0.0.1.tgz
     version: 0.0.1
-generated: "2026-01-12T16:01:40.454844+01:00"
+generated: "2026-01-16T19:26:40.521277359Z"
