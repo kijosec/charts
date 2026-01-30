@@ -22,9 +22,13 @@ rules:
       - clustersbomreports
       - clustercompliancereports
     verbs: ["get", "list", "watch"]
-  # Core resources for exposure analysis
+  # Core resources for exposure analysis and cluster inventory
   - apiGroups: [""]
-    resources: ["services", "pods", "namespaces"]
+    resources: ["services", "pods", "namespaces", "nodes", "serviceaccounts"]
+    verbs: ["get", "list"]
+  # RBAC resources for security analysis
+  - apiGroups: ["rbac.authorization.k8s.io"]
+    resources: ["rolebindings", "clusterrolebindings"]
     verbs: ["get", "list"]
   # Workload resources for inventory
   - apiGroups: ["apps"]
