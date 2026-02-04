@@ -3,7 +3,7 @@ replicaCount: 1
 
 image:
   # -- Image repository
-  repository: ghcr.io/kijosec/kijo-agent
+  repository: ghcr.io/kijosec/agent
   # -- Image pull policy
   pullPolicy: IfNotPresent
   # -- Image tag (defaults to appVersion)

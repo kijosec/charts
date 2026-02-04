@@ -2,8 +2,37 @@ apiVersion: v1
 entries:
   kijo:
   - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2026-02-04T20:53:21.856491+01:00"
+    dependencies:
+    - condition: trivy-operator.enabled
+      name: trivy-operator
+      repository: https://aquasecurity.github.io/helm-charts/
+      version: 0.31.x
+    description: Kubernetes Security Agent for Vulnerability Scanning and Monitoring
+    digest: ea4be1ae5c824177b54a7855a4286d6068a1e1fdf9397b61f898e375a73043fd
+    home: https://github.com/kijosec/charts
+    keywords:
+    - security
+    - kubernetes
+    - trivy
+    - vulnerability
+    - scanner
+    - monitoring
+    - slack
+    maintainers:
+    - name: kijosec
+      url: https://github.com/kijosec
+    name: kijo
+    sources:
+    - https://github.com/kijosec/charts
+    type: application
+    urls:
+    - https://kijosec.github.io/charts/kijo-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-02-04T20:47:17.985231+01:00"
+    created: "2026-02-04T20:53:21.853199+01:00"
     dependencies:
     - condition: trivy-operator.enabled
       name: trivy-operator
@@ -31,4 +60,4 @@ entries:
     urls:
     - https://kijosec.github.io/charts/kijo-0.0.1.tgz
     version: 0.0.1
-generated: "2026-02-04T20:47:17.980756+01:00"
+generated: "2026-02-04T20:53:21.849713+01:00"
