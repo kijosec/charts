@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   kijo:
   - apiVersion: v2
-    appVersion: 0.0.2
-    created: "2026-01-16T19:26:40.521267591Z"
+    appVersion: 0.0.1
+    created: "2026-02-04T20:47:17.985231+01:00"
     dependencies:
     - condition: trivy-operator.enabled
       name: trivy-operator
@@ -11,32 +11,7 @@ entries:
       version: 0.31.x
     description: Kubernetes Security Scanner with AI-Powered Triage and Continuous
       Monitoring
-    digest: 30e80bc1c553534a09c937f5bb849ae9f24fa39192d8374943cb74edc79ce7c5
-    home: https://github.com/trixsec-dev/charts
-    keywords:
-    - security
-    - kubernetes
-    - trivy
-    - vulnerability
-    - scanner
-    - monitoring
-    - slack
-    maintainers:
-    - name: trixsec-dev
-      url: https://github.com/trixsec-dev
-    name: trix
-    sources:
-    - https://github.com/trixsec-dev/charts
-    type: application
-    urls:
-    - https://github.com/trixsec-dev/charts/releases/download/trix-0.0.2/trix-0.0.2.tgz
-    version: 0.0.2
-  - apiVersion: v2
-    appVersion: 0.0.1
-    created: "2026-01-12T16:01:40.455588+01:00"
-    description: Kubernetes Security Scanner with AI-Powered Triage and Continuous
-      Monitoring
-    digest: 3befb0cf069e2dda45108bfc17cb2327918391c078d2d055177bde66ebd2f5ce
+    digest: 3fa5b97ebf3c67b9f72051be14ad719a525f7c50f2e499248b4fab755226df3d
     home: https://github.com/kijosec/charts
     keywords:
     - security
@@ -56,4 +31,4 @@ entries:
     urls:
     - https://kijosec.github.io/charts/kijo-0.0.1.tgz
     version: 0.0.1
-generated: "2026-01-16T19:26:40.521277359Z"
+generated: "2026-02-04T20:47:17.980756+01:00"
