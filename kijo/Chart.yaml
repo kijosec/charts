@@ -2,8 +2,8 @@ apiVersion: v2
 name: kijo
 description: Kubernetes Security Agent for Vulnerability Scanning and Monitoring
 type: application
-version: 0.1.0
-appVersion: "0.1.0"
+version: 0.1.1
+appVersion: "v0.1.0"
 home: https://github.com/kijosec/charts
 sources:
   - https://github.com/kijosec/charts
